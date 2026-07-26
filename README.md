@@ -1,154 +1,118 @@
-# 📊 Student Score Prediction using Machine Learning
+# 🎓 Student Score Prediction
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![NumPy](https://img.shields.io/badge/NumPy-Library-green?logo=numpy)
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
+## 📌 AI & ML Internship Project – Codomax Digital Solutions
 
-## 📖 About the Project
+This repository documents my learning journey during a **14-Day AI & Machine Learning Internship** at **Codomax Digital Solutions**. The primary goal is to understand the fundamentals of Artificial Intelligence, Machine Learning, and Data Science while building a **Student Score Prediction Model** using **Linear Regression**.
 
-This repository contains my work for the **14-Day AI & Machine Learning Internship** at **Codomax Digital Solutions**.
-
-The objective of this internship is to build a **Student Score Prediction System** using **Machine Learning (Linear Regression)**. Throughout the internship, I will learn Python programming, data analysis, data visualization, machine learning, model evaluation, and project deployment while following industry-standard development practices.
+Throughout this internship, I will progressively explore Python programming, data manipulation, visualization, and machine learning techniques, culminating in a predictive model that estimates student scores based on study hours.
 
 ---
 
-# 🚀 Internship Progress
+## 🚀 Internship Progress
 
-| Day | Topic | Status |
-|------|-------|--------|
-| ✅ Day 1 | Environment Setup | Completed |
-| ✅ Day 2 | Python Basics | Completed |
-| ✅ Day 3 | NumPy Basics | Completed |
-| ⏳ Day 4 | Pandas | Upcoming |
-| ⏳ Day 5 | Data Cleaning | Upcoming |
-| ⏳ Day 6 | Data Visualization | Upcoming |
-| ⏳ Day 7 | Machine Learning Basics | Upcoming |
-| ⏳ Day 8 | Build Linear Regression Model | Upcoming |
-| ⏳ Day 9 | Prediction | Upcoming |
-| ⏳ Day 10 | Model Evaluation | Upcoming |
-| ⏳ Day 11 | Prediction Application | Upcoming |
-| ⏳ Day 12 | Project Improvement | Upcoming |
-| ⏳ Day 13 | GitHub Documentation | Upcoming |
-| ⏳ Day 14 | Final Submission | Upcoming |
-
----
-
-# 📚 Day-wise Learning
-
-## ✅ Day 1 – Environment Setup
-
+### ✅ Day 1 – Environment Setup
 - Installed Python
-- Installed Visual Studio Code
-- Installed Jupyter Notebook
-- Installed Git
-- Created GitHub Repository
+- Configured Visual Studio Code
+- Set up Jupyter Notebook
+- Installed Git and connected GitHub
+- Created project repository
 - Ran the first Python program
 
----
-
-## ✅ Day 2 – Python Basics
-
-Covered the fundamentals of Python including:
-
-- Variables
-- Data Types
+### ✅ Day 2 – Python Basics
+- Variables and Data Types
 - Operators
 - Conditional Statements
-- For Loop
-- While Loop
+- Loops (`for` & `while`)
 - Functions
-- Mini Project – Study Hours Tracker
+- Mini Project: Study Hours Tracker
 
----
-
-## ✅ Day 3 – NumPy Basics
-
-Learned the fundamentals of NumPy including:
-
+### ✅ Day 3 – NumPy Basics
 - Importing NumPy
-- Creating Arrays
-- Array Indexing
-- Array Slicing
+- Creating NumPy Arrays
+- Array Indexing & Slicing
 - Mathematical Operations
 - Statistical Functions
-- Mini Project – Student Study Hours Analysis
+- Mini Project: Student Study Hours Analysis
+
+### ✅ Day 4 – Pandas Basics
+- Importing Pandas
+- Loading CSV datasets
+- Exploring datasets using `head()` and `tail()`
+- Understanding dataset information using `info()`
+- Generating statistical summaries with `describe()`
+- Mini Project: Student Score Dataset Analysis
 
 ---
 
-# 🛠 Technologies Used
+## 🛠 Technologies Used
 
 - Python 3
-- NumPy
 - Jupyter Notebook
+- NumPy
+- Pandas
 - Visual Studio Code
 - Git
 - GitHub
 
 ---
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
-```text
+```
 Student-Score-Prediction/
-│
-├── hello.py
-├── Day2_Python_Basics.ipynb
-├── Day3_NumPy_Basics.ipynb
-├── README.md
-│
-└── Future Files
-    ├── Day4_Pandas.ipynb
-    ├── Day5_Data_Cleaning.ipynb
-    ├── Day6_Data_Visualization.ipynb
-    ├── Day7_ML_Basics.ipynb
-    ├── Day8_Model_Building.ipynb
-    ├── Day9_Prediction.ipynb
-    ├── Day10_Model_Evaluation.ipynb
-    ├── Day11_Prediction_App.ipynb
-    ├── Dataset.csv
-    └── Screenshots/
+│── hello.py
+│── Day2_Python_Basics.ipynb
+│── Day3_NumPy_Basics.ipynb
+│── Day4_Pandas_Basics.ipynb
+│── student_scores.csv
+│── README.md
 ```
 
 ---
 
-# 🎯 Learning Outcomes
+## 📖 Learning Outcomes
 
-Through this internship, I am developing practical skills in:
+By completing the internship tasks, I am gaining practical experience in:
 
 - Python Programming
-- NumPy
-- Data Analysis
-- Data Visualization
-- Machine Learning
+- Data Structures using NumPy
+- Data Analysis using Pandas
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Machine Learning Fundamentals
 - Linear Regression
 - Model Evaluation
-- Git & GitHub
-- Problem Solving
+- Real-world Dataset Handling
 
 ---
 
-# 🎯 Final Goal
+## 🎯 Final Project Goal
 
-Develop a **Student Score Prediction System** that predicts student examination scores based on study hours using **Machine Learning (Linear Regression)**.
+Build a **Student Score Prediction Model** using **Linear Regression** that predicts a student's exam score based on the number of study hours.
 
 ---
 
-# 👨‍💻 Author
+## 📅 Upcoming Topics
+
+- 📊 Matplotlib
+- 📈 Seaborn
+- 🧹 Data Cleaning
+- 🤖 Linear Regression
+- 📉 Model Evaluation
+- 🔮 Student Score Prediction
+
+---
+
+## 👨‍💻 Author
 
 **Mohammed Sanjidh**
 
-- 🎓 B.Tech Computer Science Engineering
-- 💻 AI & Machine Learning Enthusiast
-- 🔐 Cybersecurity Enthusiast
+🎓 B.Tech Computer Science Engineering
 
-### GitHub
+🔗 GitHub: https://github.com/mohsanjidh
 
-https://github.com/mohsanjidh
-
-### LinkedIn
-
-(Add your LinkedIn profile URL here)
+💼 LinkedIn: https://www.linkedin.com/in/your-linkedin-profile
 
 ---
 
-⭐ If you found this repository useful, feel free to star it!
+⭐ Thank you for visiting this repository! Feel free to explore the notebooks and follow my AI & Machine Learning internship journey.
