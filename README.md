@@ -2,19 +2,29 @@
 
 ## 📌 AI & ML Internship Project – Codomax Digital Solutions
 
-This repository documents my learning journey during a **14-Day AI & Machine Learning Internship** at **Codomax Digital Solutions**.
+Welcome to my AI & Machine Learning internship repository! This project documents my learning journey throughout a **14-Day AI & ML Internship** at **Codomax Digital Solutions**.
 
-The internship focuses on building a **Student Score Prediction System** using **Python**, **Data Analysis**, and **Machine Learning**. Throughout this journey, I am learning industry-standard tools and libraries while applying them to real-world datasets.
-
----
-
-## 🚀 Project Objective
-
-The objective of this project is to develop a Machine Learning model that predicts a student's examination score based on the number of hours studied. The project covers the complete workflow from Python fundamentals to model training, evaluation, and prediction.
+The primary objective is to build a **Student Score Prediction Model** using **Python**, **Data Analysis**, **Data Visualization**, and **Machine Learning (Linear Regression)**.
 
 ---
 
-# 📅 Daily Progress
+# 🚀 Project Overview
+
+This project demonstrates the complete Machine Learning workflow:
+
+- Python Programming
+- Data Analysis
+- Data Cleaning
+- Data Visualization
+- Machine Learning
+- Model Evaluation
+- Student Score Prediction
+
+The final application will predict a student's exam score based on their study hours.
+
+---
+
+# 📅 Internship Progress
 
 ## ✅ Day 1 – Environment Setup
 - Installed Python
@@ -22,62 +32,75 @@ The objective of this project is to develop a Machine Learning model that predic
 - Set up Jupyter Notebook
 - Installed Git
 - Connected GitHub Repository
-- Ran the first Python program
-- Learned the basics of AI, Machine Learning, and Data Science
+- Created the project repository
+- Learned AI, Machine Learning, and Data Science fundamentals
 
 ---
 
 ## ✅ Day 2 – Python Basics
-Topics Covered:
+### Topics Covered
 - Variables and Data Types
 - Operators
 - Conditional Statements
 - Loops (`for` & `while`)
 - Functions
 
-Mini Project:
+### Mini Project
 - Study Hours Tracker
 
 ---
 
 ## ✅ Day 3 – NumPy Basics
-Topics Covered:
+### Topics Covered
 - NumPy Arrays
-- Array Indexing
-- Array Slicing
+- Indexing
+- Slicing
 - Mathematical Operations
 - Statistical Functions
 
-Mini Project:
+### Mini Project
 - Student Study Hours Analysis
 
 ---
 
 ## ✅ Day 4 – Pandas Basics
-Topics Covered:
+### Topics Covered
 - Importing Pandas
-- Loading CSV Dataset
-- Exploring Data
+- Loading CSV Files
+- Dataset Exploration
 - Dataset Information
 - Statistical Summary
 - Working with Rows and Columns
 
-Mini Project:
+### Mini Project
 - Student Score Dataset Analysis
 
 ---
 
 ## ✅ Day 5 – Data Cleaning
-Topics Covered:
-- Checking Missing Values
-- Handling Missing Values
-- Identifying Duplicate Records
-- Removing Duplicate Records
-- Dataset Statistics
-- Preparing Clean Data for Machine Learning
+### Topics Covered
+- Missing Values
+- Duplicate Records
+- Removing Duplicates
+- Dataset Validation
+- Data Preparation
 
-Mini Project:
+### Mini Project
 - Student Dataset Cleaning & Validation
+
+---
+
+## ✅ Day 6 – Data Visualization
+### Topics Covered
+- Introduction to Matplotlib
+- Line Charts
+- Scatter Plots
+- Bar Charts
+- Histograms
+- Data Visualization Techniques
+
+### Mini Project
+- Student Score Visualization and Trend Analysis
 
 ---
 
@@ -86,6 +109,7 @@ Mini Project:
 - Python 3
 - NumPy
 - Pandas
+- Matplotlib
 - Jupyter Notebook
 - Visual Studio Code
 - Git
@@ -98,46 +122,73 @@ Mini Project:
 ```text
 Student-Score-Prediction/
 │
+├── Day1_Environment_Setup
 ├── Day2_Python_Basics.ipynb
 ├── Day3_NumPy_Basics.ipynb
 ├── Day4_Pandas_Basics.ipynb
 ├── Day5_Data_Cleaning.ipynb
+├── Day6_Data_Visualization.ipynb
+│
 ├── student_scores.csv
 ├── README.md
+├── requirements.txt
 └── hello.py
 ```
 
 ---
 
-# 📖 Skills Learned
+# 📖 Skills Acquired
 
-- Python Programming
-- Data Structures
-- NumPy
-- Pandas
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Data Preprocessing
-- Dataset Handling
-- Git & GitHub
+✔ Python Programming
+
+✔ NumPy for Numerical Computing
+
+✔ Pandas for Data Analysis
+
+✔ Data Cleaning & Preprocessing
+
+✔ Data Visualization using Matplotlib
+
+✔ Dataset Exploration
+
+✔ Git & GitHub Version Control
+
+✔ Jupyter Notebook
 
 ---
 
-# 🎯 Final Goal
+# 🎯 Final Project Goal
 
-Build a **Student Score Prediction System** using **Linear Regression** that predicts examination scores based on students' study hours.
+Develop a **Machine Learning model** using **Linear Regression** to predict a student's examination score based on the number of study hours.
+
+The final project will include:
+
+- Data Preprocessing
+- Model Training
+- Model Evaluation
+- Predictions
+- Result Visualization
 
 ---
 
 # ⏳ Upcoming Topics
 
-- 📊 Matplotlib
-- 📈 Data Visualization
-- 🤖 Machine Learning Fundamentals
-- 📉 Linear Regression
-- 📋 Model Evaluation
+- 📊 Seaborn
+- 🤖 Machine Learning with Scikit-learn
+- 📈 Linear Regression
+- 📉 Model Evaluation
 - 🔮 Student Score Prediction
-- 💻 Prediction Application
+- 💻 Model Deployment
+
+---
+
+# 📸 Project Highlights
+
+- Daily practical notebooks
+- Hands-on coding exercises
+- Real-world student score dataset
+- Progressive learning from Python basics to Machine Learning
+- Well-documented GitHub repository
 
 ---
 
@@ -152,8 +203,16 @@ Build a **Student Score Prediction System** using **Linear Regression** that pre
 
 ---
 
-## ⭐ About This Repository
+# ⭐ Support
 
-This repository is continuously updated throughout my internship. Each day's notebook represents new concepts, practical exercises, and mini-projects that contribute toward building a complete Machine Learning application.
+If you found this repository helpful, consider giving it a ⭐ on GitHub.
 
-If you find this project useful, feel free to explore the notebooks, provide feedback, or connect with me on GitHub and LinkedIn.
+Feedback and suggestions are always welcome.
+
+---
+
+## 📌 Repository Status
+
+**Current Progress:** ✅ Day 6 / 14 Completed
+
+**Next Milestone:** Data Visualization using Seaborn & Introduction to Machine Learning 🚀
