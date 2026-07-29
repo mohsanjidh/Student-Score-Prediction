@@ -2,25 +2,25 @@
 
 ## 📌 AI & ML Internship Project – Codomax Digital Solutions
 
-Welcome to my AI & Machine Learning internship repository! This project documents my learning journey throughout a **14-Day AI & ML Internship** at **Codomax Digital Solutions**.
+Welcome to my AI & Machine Learning internship repository! This repository documents my learning journey during a **14-Day AI & Machine Learning Internship** at **Codomax Digital Solutions**.
 
-The primary objective is to build a **Student Score Prediction Model** using **Python**, **Data Analysis**, **Data Visualization**, and **Machine Learning (Linear Regression)**.
+The primary goal of this project is to build a **Student Score Prediction Model** using **Linear Regression**, while learning the complete Machine Learning workflow—from Python fundamentals to model training, evaluation, and prediction.
 
 ---
 
 # 🚀 Project Overview
 
-This project demonstrates the complete Machine Learning workflow:
+This project covers the complete Machine Learning pipeline:
 
 - Python Programming
-- Data Analysis
-- Data Cleaning
-- Data Visualization
-- Machine Learning
+- Numerical Computing with NumPy
+- Data Analysis with Pandas
+- Data Cleaning & Preprocessing
+- Data Visualization with Matplotlib
+- Machine Learning using Scikit-learn
+- Linear Regression
 - Model Evaluation
 - Student Score Prediction
-
-The final application will predict a student's exam score based on their study hours.
 
 ---
 
@@ -30,19 +30,19 @@ The final application will predict a student's exam score based on their study h
 - Installed Python
 - Configured Visual Studio Code
 - Set up Jupyter Notebook
-- Installed Git
-- Connected GitHub Repository
-- Created the project repository
+- Installed Git and GitHub
+- Created project repository
 - Learned AI, Machine Learning, and Data Science fundamentals
 
 ---
 
 ## ✅ Day 2 – Python Basics
+
 ### Topics Covered
 - Variables and Data Types
 - Operators
 - Conditional Statements
-- Loops (`for` & `while`)
+- Loops
 - Functions
 
 ### Mini Project
@@ -51,10 +51,11 @@ The final application will predict a student's exam score based on their study h
 ---
 
 ## ✅ Day 3 – NumPy Basics
+
 ### Topics Covered
 - NumPy Arrays
-- Indexing
-- Slicing
+- Array Indexing
+- Array Slicing
 - Mathematical Operations
 - Statistical Functions
 
@@ -64,6 +65,7 @@ The final application will predict a student's exam score based on their study h
 ---
 
 ## ✅ Day 4 – Pandas Basics
+
 ### Topics Covered
 - Importing Pandas
 - Loading CSV Files
@@ -78,29 +80,49 @@ The final application will predict a student's exam score based on their study h
 ---
 
 ## ✅ Day 5 – Data Cleaning
+
 ### Topics Covered
-- Missing Values
-- Duplicate Records
+- Checking Missing Values
+- Handling Missing Values
+- Finding Duplicate Records
 - Removing Duplicates
-- Dataset Validation
+- Data Validation
 - Data Preparation
 
 ### Mini Project
-- Student Dataset Cleaning & Validation
+- Student Dataset Cleaning
 
 ---
 
 ## ✅ Day 6 – Data Visualization
+
 ### Topics Covered
-- Introduction to Matplotlib
-- Line Charts
-- Scatter Plots
-- Bar Charts
-- Histograms
-- Data Visualization Techniques
+- Matplotlib Basics
+- Line Chart
+- Scatter Plot
+- Bar Chart
+- Histogram
+- Data Trend Analysis
 
 ### Mini Project
-- Student Score Visualization and Trend Analysis
+- Student Score Visualization
+
+---
+
+## ✅ Day 7 – Linear Regression
+
+### Topics Covered
+- Introduction to Machine Learning
+- Supervised Learning
+- Linear Regression
+- Feature Selection
+- Train-Test Split
+- Model Training using Scikit-learn
+- Score Prediction
+- Regression Line Visualization
+
+### Mini Project
+- Student Score Prediction using Linear Regression
 
 ---
 
@@ -110,6 +132,7 @@ The final application will predict a student's exam score based on their study h
 - NumPy
 - Pandas
 - Matplotlib
+- Scikit-learn
 - Jupyter Notebook
 - Visual Studio Code
 - Git
@@ -122,72 +145,90 @@ The final application will predict a student's exam score based on their study h
 ```text
 Student-Score-Prediction/
 │
-├── Day1_Environment_Setup
 ├── Day2_Python_Basics.ipynb
 ├── Day3_NumPy_Basics.ipynb
 ├── Day4_Pandas_Basics.ipynb
 ├── Day5_Data_Cleaning.ipynb
 ├── Day6_Data_Visualization.ipynb
+├── Day7_Linear_Regression.ipynb
 │
 ├── student_scores.csv
-├── README.md
 ├── requirements.txt
+├── README.md
 └── hello.py
 ```
 
 ---
 
-# 📖 Skills Acquired
+# 📖 Skills Learned
 
-✔ Python Programming
-
-✔ NumPy for Numerical Computing
-
-✔ Pandas for Data Analysis
-
-✔ Data Cleaning & Preprocessing
-
-✔ Data Visualization using Matplotlib
-
-✔ Dataset Exploration
-
-✔ Git & GitHub Version Control
-
-✔ Jupyter Notebook
+- Python Programming
+- NumPy
+- Pandas
+- Data Cleaning
+- Data Visualization
+- Exploratory Data Analysis (EDA)
+- Machine Learning Fundamentals
+- Linear Regression
+- Model Training
+- Prediction using Scikit-learn
+- Git & GitHub
 
 ---
 
 # 🎯 Final Project Goal
 
-Develop a **Machine Learning model** using **Linear Regression** to predict a student's examination score based on the number of study hours.
+Develop a Machine Learning model that predicts a student's examination score based on study hours using **Linear Regression**.
 
 The final project will include:
 
-- Data Preprocessing
+- Data Collection
+- Data Cleaning
+- Data Visualization
 - Model Training
 - Model Evaluation
 - Predictions
-- Result Visualization
+- Performance Analysis
+
+---
+
+# 📦 Requirements
+
+Install all required libraries using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# 📄 requirements.txt
+
+```text
+numpy
+pandas
+matplotlib
+scikit-learn
+```
 
 ---
 
 # ⏳ Upcoming Topics
 
-- 📊 Seaborn
-- 🤖 Machine Learning with Scikit-learn
-- 📈 Linear Regression
-- 📉 Model Evaluation
-- 🔮 Student Score Prediction
-- 💻 Model Deployment
+- 📊 Model Evaluation Metrics
+- 📈 Model Accuracy
+- 🔍 Feature Engineering
+- 🤖 Advanced Machine Learning
+- 💻 Student Score Prediction Application
 
 ---
 
 # 📸 Project Highlights
 
 - Daily practical notebooks
-- Hands-on coding exercises
-- Real-world student score dataset
-- Progressive learning from Python basics to Machine Learning
+- Hands-on Machine Learning exercises
+- Real-world student dataset
+- Step-by-step learning approach
 - Well-documented GitHub repository
 
 ---
@@ -199,20 +240,20 @@ The final project will include:
 🎓 B.Tech Computer Science Engineering
 
 - 🔗 GitHub: https://github.com/mohsanjidh
-- 💼 LinkedIn: *(Add your LinkedIn profile URL here)*
+- 💼 LinkedIn: *(Add your LinkedIn profile URL)*
 
 ---
 
-# ⭐ Support
+# ⭐ Repository Status
 
-If you found this repository helpful, consider giving it a ⭐ on GitHub.
+✅ **Day 7 / 14 Completed**
 
-Feedback and suggestions are always welcome.
+🚀 **Current Focus:** Building and training Machine Learning models using Linear Regression.
 
 ---
 
-## 📌 Repository Status
+## 🌟 Thank You
 
-**Current Progress:** ✅ Day 6 / 14 Completed
+Thank you for visiting this repository!
 
-**Next Milestone:** Data Visualization using Seaborn & Introduction to Machine Learning 🚀
+If you found this project useful, feel free to ⭐ the repository and follow my journey as I continue learning Artificial Intelligence and Machine Learning.
