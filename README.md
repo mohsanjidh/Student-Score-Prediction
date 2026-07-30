@@ -4,7 +4,7 @@
 
 Welcome to my AI & Machine Learning internship repository! This repository documents my learning journey during a **14-Day AI & Machine Learning Internship** at **Codomax Digital Solutions**.
 
-The primary goal of this project is to build a **Student Score Prediction Model** using **Linear Regression**, while learning the complete Machine Learning workflow—from Python fundamentals to model training, evaluation, and prediction.
+The goal of this project is to build a **Student Score Prediction Model** using **Linear Regression**, while learning the complete Machine Learning workflow—from Python fundamentals to model training, evaluation, and prediction.
 
 ---
 
@@ -13,11 +13,11 @@ The primary goal of this project is to build a **Student Score Prediction Model*
 This project covers the complete Machine Learning pipeline:
 
 - Python Programming
-- Numerical Computing with NumPy
-- Data Analysis with Pandas
+- NumPy
+- Pandas
 - Data Cleaning & Preprocessing
-- Data Visualization with Matplotlib
-- Machine Learning using Scikit-learn
+- Data Visualization
+- Machine Learning
 - Linear Regression
 - Model Evaluation
 - Student Score Prediction
@@ -27,108 +27,107 @@ This project covers the complete Machine Learning pipeline:
 # 📅 Internship Progress
 
 ## ✅ Day 1 – Environment Setup
-- Installed Python
-- Configured Visual Studio Code
+- Installed Python and VS Code
 - Set up Jupyter Notebook
-- Installed Git and GitHub
-- Created project repository
-- Learned AI, Machine Learning, and Data Science fundamentals
+- Installed Git & GitHub
+- Project initialization
 
 ---
 
 ## ✅ Day 2 – Python Basics
-
-### Topics Covered
-- Variables and Data Types
+**Topics Covered**
+- Variables & Data Types
 - Operators
-- Conditional Statements
 - Loops
+- Conditional Statements
 - Functions
 
-### Mini Project
+**Mini Project**
 - Study Hours Tracker
 
 ---
 
 ## ✅ Day 3 – NumPy Basics
-
-### Topics Covered
-- NumPy Arrays
-- Array Indexing
-- Array Slicing
+**Topics Covered**
+- Arrays
+- Indexing & Slicing
 - Mathematical Operations
 - Statistical Functions
 
-### Mini Project
+**Mini Project**
 - Student Study Hours Analysis
 
 ---
 
 ## ✅ Day 4 – Pandas Basics
-
-### Topics Covered
-- Importing Pandas
+**Topics Covered**
 - Loading CSV Files
 - Dataset Exploration
 - Dataset Information
 - Statistical Summary
-- Working with Rows and Columns
+- Working with Rows & Columns
 
-### Mini Project
+**Mini Project**
 - Student Score Dataset Analysis
 
 ---
 
 ## ✅ Day 5 – Data Cleaning
-
-### Topics Covered
-- Checking Missing Values
-- Handling Missing Values
-- Finding Duplicate Records
-- Removing Duplicates
+**Topics Covered**
+- Missing Values
+- Duplicate Records
 - Data Validation
 - Data Preparation
 
-### Mini Project
+**Mini Project**
 - Student Dataset Cleaning
 
 ---
 
 ## ✅ Day 6 – Data Visualization
-
-### Topics Covered
-- Matplotlib Basics
+**Topics Covered**
+- Matplotlib
 - Line Chart
 - Scatter Plot
 - Bar Chart
 - Histogram
-- Data Trend Analysis
 
-### Mini Project
+**Mini Project**
 - Student Score Visualization
 
 ---
 
 ## ✅ Day 7 – Linear Regression
-
-### Topics Covered
-- Introduction to Machine Learning
+**Topics Covered**
+- Machine Learning Basics
 - Supervised Learning
-- Linear Regression
-- Feature Selection
 - Train-Test Split
-- Model Training using Scikit-learn
-- Score Prediction
-- Regression Line Visualization
+- Linear Regression
+- Model Training
+- Predictions
 
-### Mini Project
-- Student Score Prediction using Linear Regression
+**Mini Project**
+- Student Score Prediction
+
+---
+
+## ✅ Day 8 – Model Evaluation
+**Topics Covered**
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+- Model Performance Analysis
+- Actual vs Predicted Visualization
+
+**Mini Project**
+- Linear Regression Model Evaluation
 
 ---
 
 # 🛠 Technologies Used
 
-- Python 3
+- Python
 - NumPy
 - Pandas
 - Matplotlib
@@ -151,6 +150,7 @@ Student-Score-Prediction/
 ├── Day5_Data_Cleaning.ipynb
 ├── Day6_Data_Visualization.ipynb
 ├── Day7_Linear_Regression.ipynb
+├── Day8_Model_Evaluation.ipynb
 │
 ├── student_scores.csv
 ├── requirements.txt
@@ -163,46 +163,31 @@ Student-Score-Prediction/
 # 📖 Skills Learned
 
 - Python Programming
-- NumPy
-- Pandas
+- Data Analysis
 - Data Cleaning
 - Data Visualization
 - Exploratory Data Analysis (EDA)
 - Machine Learning Fundamentals
 - Linear Regression
-- Model Training
-- Prediction using Scikit-learn
+- Model Evaluation
+- Performance Metrics
 - Git & GitHub
 
 ---
 
-# 🎯 Final Project Goal
+# 🎯 Final Goal
 
-Develop a Machine Learning model that predicts a student's examination score based on study hours using **Linear Regression**.
-
-The final project will include:
-
-- Data Collection
-- Data Cleaning
-- Data Visualization
-- Model Training
-- Model Evaluation
-- Predictions
-- Performance Analysis
+Build a Machine Learning model that predicts student scores based on study hours and evaluate its performance using industry-standard metrics.
 
 ---
 
 # 📦 Requirements
 
-Install all required libraries using:
-
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-# 📄 requirements.txt
+### requirements.txt
 
 ```text
 numpy
@@ -215,21 +200,11 @@ scikit-learn
 
 # ⏳ Upcoming Topics
 
-- 📊 Model Evaluation Metrics
-- 📈 Model Accuracy
-- 🔍 Feature Engineering
-- 🤖 Advanced Machine Learning
-- 💻 Student Score Prediction Application
-
----
-
-# 📸 Project Highlights
-
-- Daily practical notebooks
-- Hands-on Machine Learning exercises
-- Real-world student dataset
-- Step-by-step learning approach
-- Well-documented GitHub repository
+- Feature Engineering
+- Model Improvement
+- Advanced Regression
+- Machine Learning Projects
+- Final Student Score Prediction System
 
 ---
 
@@ -240,20 +215,11 @@ scikit-learn
 🎓 B.Tech Computer Science Engineering
 
 - 🔗 GitHub: https://github.com/mohsanjidh
-- 💼 LinkedIn: *(Add your LinkedIn profile URL)*
 
 ---
 
 # ⭐ Repository Status
 
-✅ **Day 7 / 14 Completed**
+✅ **Day 8 / 14 Completed**
 
-🚀 **Current Focus:** Building and training Machine Learning models using Linear Regression.
-
----
-
-## 🌟 Thank You
-
-Thank you for visiting this repository!
-
-If you found this project useful, feel free to ⭐ the repository and follow my journey as I continue learning Artificial Intelligence and Machine Learning.
+🚀 **Current Focus:** Evaluating Machine Learning models using performance metrics.
