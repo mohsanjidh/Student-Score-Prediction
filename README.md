@@ -4,7 +4,7 @@
 
 Welcome to my AI & Machine Learning internship repository! This repository documents my learning journey during a **14-Day AI & Machine Learning Internship** at **Codomax Digital Solutions**.
 
-The goal of this project is to build a **Student Score Prediction Model** using **Linear Regression** while learning the complete Machine Learning workflow—from Python fundamentals to training, evaluating, saving, and using machine learning models.
+The goal of this project is to build a **Student Score Prediction System** while learning the complete Machine Learning workflow—from Python programming and data analysis to building, evaluating, comparing, and deploying machine learning models.
 
 ---
 
@@ -19,6 +19,7 @@ This project covers the complete Machine Learning pipeline:
 - Data Visualization
 - Machine Learning
 - Linear Regression
+- Decision Tree Regression
 - Model Evaluation
 - Model Persistence
 - Student Score Prediction
@@ -29,11 +30,10 @@ This project covers the complete Machine Learning pipeline:
 
 ## ✅ Day 1 – Environment Setup
 - Installed Python
-- Configured Visual Studio Code
+- Configured VS Code
 - Set up Jupyter Notebook
 - Installed Git & GitHub
 - Created the project repository
-- Learned AI, Machine Learning, and Data Science fundamentals
 
 ---
 
@@ -42,8 +42,8 @@ This project covers the complete Machine Learning pipeline:
 ### Topics Covered
 - Variables & Data Types
 - Operators
-- Conditional Statements
 - Loops
+- Conditional Statements
 - Functions
 
 ### Mini Project
@@ -55,8 +55,8 @@ This project covers the complete Machine Learning pipeline:
 
 ### Topics Covered
 - NumPy Arrays
-- Array Indexing
-- Array Slicing
+- Indexing
+- Slicing
 - Mathematical Operations
 - Statistical Functions
 
@@ -73,7 +73,6 @@ This project covers the complete Machine Learning pipeline:
 - Dataset Exploration
 - Dataset Information
 - Statistical Summary
-- Working with Rows and Columns
 
 ### Mini Project
 - Student Score Dataset Analysis
@@ -101,7 +100,6 @@ This project covers the complete Machine Learning pipeline:
 - Scatter Plots
 - Bar Charts
 - Histograms
-- Data Trend Analysis
 
 ### Mini Project
 - Student Score Visualization
@@ -126,30 +124,43 @@ This project covers the complete Machine Learning pipeline:
 ## ✅ Day 8 – Model Evaluation
 
 ### Topics Covered
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
+- MAE
+- MSE
+- RMSE
 - R² Score
 - Actual vs Predicted Comparison
-- Model Performance Analysis
 
 ### Mini Project
 - Linear Regression Model Evaluation
 
 ---
 
-## ✅ Day 9 – Model Persistence & Prediction
+## ✅ Day 9 – Model Persistence
 
 ### Topics Covered
-- Understanding Model Coefficients
-- Understanding Model Intercept
-- Predicting New Student Scores
-- Saving a Trained Model using Joblib
-- Loading a Saved Model
-- Making Predictions without Retraining
+- Joblib
+- Saving Models
+- Loading Models
+- Predicting New Data
+- Model Reusability
 
 ### Mini Project
-- Student Score Prediction using a Saved Machine Learning Model
+- Saved Student Score Prediction Model
+
+---
+
+## ✅ Day 10 – Decision Tree Regression
+
+### Topics Covered
+- Decision Tree Regression
+- Model Training
+- Predictions
+- Model Evaluation
+- Regression Model Comparison
+- Linear Regression vs Decision Tree
+
+### Mini Project
+- Student Score Prediction using Decision Tree Regression
 
 ---
 
@@ -181,6 +192,7 @@ Student-Score-Prediction/
 ├── Day7_Linear_Regression.ipynb
 ├── Day8_Model_Evaluation.ipynb
 ├── Day9_Model_Deployment_Basics.ipynb
+├── Day10_Decision_Tree_Regression.ipynb
 │
 ├── student_scores.csv
 ├── student_score_model.pkl
@@ -196,15 +208,16 @@ Student-Score-Prediction/
 - Python Programming
 - NumPy
 - Pandas
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA)
+- Data Cleaning
 - Data Visualization
+- Exploratory Data Analysis (EDA)
 - Machine Learning Fundamentals
 - Linear Regression
+- Decision Tree Regression
 - Model Evaluation
 - Model Persistence using Joblib
 - Prediction on New Data
-- Git & GitHub Version Control
+- Git & GitHub
 
 ---
 
@@ -212,64 +225,42 @@ Student-Score-Prediction/
 
 ```text
 Student Dataset
-       │
-       ▼
+      │
+      ▼
 Data Cleaning
-       │
-       ▼
+      │
+      ▼
 Data Visualization
-       │
-       ▼
+      │
+      ▼
 Train-Test Split
-       │
-       ▼
-Linear Regression Model
-       │
-       ▼
+      │
+      ▼
+Train ML Models
+      │
+      ├──────────────► Linear Regression
+      │
+      └──────────────► Decision Tree Regression
+                      │
+                      ▼
 Model Evaluation
-       │
-       ▼
-Save Model (.pkl)
-       │
-       ▼
-Load Model
-       │
-       ▼
+                      │
+                      ▼
+Save Model
+                      │
+                      ▼
 Predict Student Scores
 ```
 
 ---
 
-# 🎯 Final Project Goal
-
-Develop a Machine Learning model that accurately predicts student exam scores based on study hours and demonstrates the complete ML workflow, including:
-
-- Data Preparation
-- Data Visualization
-- Model Training
-- Model Evaluation
-- Model Persistence
-- Predictions on New Data
-
----
-
 # 📦 Installation
-
-Clone this repository:
 
 ```bash
 git clone https://github.com/mohsanjidh/Student-Score-Prediction.git
-```
 
-Move into the project folder:
-
-```bash
 cd Student-Score-Prediction
-```
 
-Install all dependencies:
-
-```bash
 pip install -r requirements.txt
 ```
 
@@ -290,7 +281,7 @@ joblib
 # 📅 Learning Timeline
 
 | Day | Topic | Status |
-|-----|-------------------------------|--------|
+|------|-----------------------------|-----------|
 | ✅ Day 1 | Environment Setup | Completed |
 | ✅ Day 2 | Python Basics | Completed |
 | ✅ Day 3 | NumPy Basics | Completed |
@@ -299,20 +290,20 @@ joblib
 | ✅ Day 6 | Data Visualization | Completed |
 | ✅ Day 7 | Linear Regression | Completed |
 | ✅ Day 8 | Model Evaluation | Completed |
-| ✅ Day 9 | Model Persistence & Prediction | Completed |
-| ⏳ Day 10 | Coming Soon | In Progress |
+| ✅ Day 9 | Model Persistence | Completed |
+| ✅ Day 10 | Decision Tree Regression | Completed |
+| ⏳ Day 11 | Coming Soon | In Progress |
 
 ---
 
 # 🎯 Upcoming Topics
 
+- Random Forest
 - Feature Engineering
 - Classification Algorithms
-- Decision Trees
-- Random Forest
-- Model Optimization
-- Machine Learning Projects
-- Deployment using Flask
+- Hyperparameter Tuning
+- Model Deployment using Flask
+- Machine Learning Web Application
 
 ---
 
@@ -328,14 +319,12 @@ joblib
 
 # ⭐ Repository Status
 
-**Progress:** ✅ **Day 9 / 14 Completed**
+**Progress:** ✅ **Day 10 / 14 Completed**
 
-🚀 **Current Focus:** Building reusable Machine Learning models by saving, loading, and making predictions using trained models.
+🚀 **Current Focus:** Exploring multiple Machine Learning algorithms and comparing their performance.
 
 ---
 
 ## 🌟 Acknowledgement
 
-This project is part of my **AI & Machine Learning Internship at Codomax Digital Solutions**, where I am building practical skills through daily hands-on exercises and real-world machine learning concepts.
-
-If you found this repository useful, feel free to ⭐ star the repository and follow my learning journey!
+This project is part of my AI & Machine Learning Internship at **Codomax Digital Solutions**, where I am building practical skills through daily hands-on exercises and real-world Machine Learning concepts.
