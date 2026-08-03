@@ -17,9 +17,8 @@ This project demonstrates the complete Machine Learning pipeline:
 - Pandas
 - Data Cleaning & Preprocessing
 - Data Visualization
-- Linear Regression
-- Decision Tree Regression
-- Random Forest Regression
+- Regression Algorithms
+- Classification Algorithms
 - Model Evaluation
 - Model Persistence
 - Student Score Prediction
@@ -38,8 +37,7 @@ This project demonstrates the complete Machine Learning pipeline:
 
 ## ✅ Day 2 – Python Basics
 ### Topics Covered
-- Variables
-- Data Types
+- Variables & Data Types
 - Operators
 - Loops
 - Conditional Statements
@@ -52,9 +50,8 @@ Study Hours Tracker
 
 ## ✅ Day 3 – NumPy Basics
 ### Topics Covered
-- Arrays
-- Indexing
-- Slicing
+- NumPy Arrays
+- Indexing & Slicing
 - Mathematical Operations
 - Statistical Functions
 
@@ -66,9 +63,9 @@ Student Study Hours Analysis
 ## ✅ Day 4 – Pandas Basics
 ### Topics Covered
 - Reading CSV Files
-- Dataset Information
+- Dataset Exploration
 - Descriptive Statistics
-- Selecting Rows & Columns
+- Working with Rows & Columns
 
 ### Mini Project
 Student Dataset Analysis
@@ -79,7 +76,6 @@ Student Dataset Analysis
 ### Topics Covered
 - Missing Values
 - Duplicate Values
-- Data Validation
 - Data Preparation
 
 ### Mini Project
@@ -89,7 +85,7 @@ Student Dataset Cleaning
 
 ## ✅ Day 6 – Data Visualization
 ### Topics Covered
-- Line Plot
+- Line Chart
 - Scatter Plot
 - Histogram
 - Bar Chart
@@ -102,6 +98,7 @@ Student Score Visualization
 ## ✅ Day 7 – Linear Regression
 ### Topics Covered
 - Supervised Learning
+- Linear Regression
 - Train-Test Split
 - Model Training
 - Predictions
@@ -113,21 +110,20 @@ Student Score Prediction
 
 ## ✅ Day 8 – Model Evaluation
 ### Topics Covered
-- MAE
-- MSE
-- RMSE
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
 - R² Score
-- Actual vs Predicted Comparison
 
 ### Mini Project
-Linear Regression Evaluation
+Linear Regression Model Evaluation
 
 ---
 
 ## ✅ Day 9 – Model Persistence
 ### Topics Covered
-- Saving Models using Joblib
-- Loading Saved Models
+- Saving Models with Joblib
+- Loading Models
 - Predicting New Data
 
 ### Mini Project
@@ -137,11 +133,10 @@ Reusable Student Score Prediction Model
 
 ## ✅ Day 10 – Decision Tree Regression
 ### Topics Covered
-- Decision Tree Algorithm
+- Decision Tree Regression
 - Model Training
 - Predictions
-- Performance Evaluation
-- Comparison with Linear Regression
+- Model Comparison
 
 ### Mini Project
 Student Score Prediction using Decision Tree
@@ -149,17 +144,30 @@ Student Score Prediction using Decision Tree
 ---
 
 ## ✅ Day 11 – Random Forest Regression
-
 ### Topics Covered
 - Ensemble Learning
 - Random Forest Regression
-- Model Training
 - Model Evaluation
-- Prediction
-- Comparison with Decision Tree and Linear Regression
+- Model Comparison
 
 ### Mini Project
-Student Score Prediction using Random Forest Regression
+Student Score Prediction using Random Forest
+
+---
+
+## ✅ Day 12 – Logistic Regression Classification
+
+### Topics Covered
+- Classification
+- Logistic Regression
+- Pass/Fail Prediction
+- Accuracy
+- Confusion Matrix
+- Classification Report
+- Regression vs Classification
+
+### Mini Project
+Student Pass/Fail Prediction using Logistic Regression
 
 ---
 
@@ -193,6 +201,7 @@ Student-Score-Prediction/
 ├── Day9_Model_Deployment_Basics.ipynb
 ├── Day10_Decision_Tree_Regression.ipynb
 ├── Day11_Random_Forest_Regression.ipynb
+├── Day12_Logistic_Regression_Classification.ipynb
 │
 ├── student_scores.csv
 ├── student_score_model.pkl
@@ -215,7 +224,8 @@ Student-Score-Prediction/
 - Linear Regression
 - Decision Tree Regression
 - Random Forest Regression
-- Ensemble Learning
+- Logistic Regression
+- Classification
 - Model Evaluation
 - Model Persistence
 - Git & GitHub
@@ -226,31 +236,36 @@ Student-Score-Prediction/
 
 ```
 Student Dataset
-      │
-      ▼
+       │
+       ▼
 Data Cleaning
-      │
-      ▼
+       │
+       ▼
 Data Visualization
-      │
-      ▼
+       │
+       ▼
 Train-Test Split
-      │
-      ▼
-Machine Learning Models
-      │
-      ├── Linear Regression
-      ├── Decision Tree Regression
-      └── Random Forest Regression
-              │
-              ▼
+       │
+       ▼
+Regression Models
+│
+├── Linear Regression
+├── Decision Tree Regression
+└── Random Forest Regression
+       │
+       ▼
+Classification Model
+│
+└── Logistic Regression
+       │
+       ▼
 Model Evaluation
-              │
-              ▼
+       │
+       ▼
 Save Model
-              │
-              ▼
-Predict Student Scores
+       │
+       ▼
+Prediction
 ```
 
 ---
@@ -282,7 +297,7 @@ joblib
 # 📅 Learning Timeline
 
 | Day | Topic | Status |
-|------|-----------------------------|------------|
+|------|-------------------------------|------------|
 | ✅ Day 1 | Environment Setup | Completed |
 | ✅ Day 2 | Python Basics | Completed |
 | ✅ Day 3 | NumPy Basics | Completed |
@@ -294,16 +309,17 @@ joblib
 | ✅ Day 9 | Model Persistence | Completed |
 | ✅ Day 10 | Decision Tree Regression | Completed |
 | ✅ Day 11 | Random Forest Regression | Completed |
-| ⏳ Day 12 | Classification | Coming Soon |
+| ✅ Day 12 | Logistic Regression Classification | Completed |
+| ⏳ Day 13 | Coming Soon | In Progress |
 
 ---
 
 # 🎯 Upcoming Topics
 
-- Classification Algorithms
-- Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Random Forest Classifier
+- Feature Engineering
+- Hyperparameter Tuning
 - Model Deployment using Flask
 
 ---
@@ -320,12 +336,12 @@ joblib
 
 # ⭐ Repository Status
 
-**Progress:** ✅ **Day 11 / 14 Completed**
+**Progress:** ✅ **Day 12 / 14 Completed**
 
-🚀 **Current Focus:** Learning ensemble learning techniques and comparing multiple machine learning algorithms.
+🚀 **Current Focus:** Learning classification algorithms and evaluating machine learning models for real-world prediction tasks.
 
 ---
 
 ## 🌟 Acknowledgement
 
-This project is part of my **AI & Machine Learning Internship at Codomax Digital Solutions**, where I am building practical AI and Machine Learning skills through daily hands-on practice.
+This project is part of my **AI & Machine Learning Internship at Codomax Digital Solutions**, where I am building practical AI and Machine Learning skills through daily hands-on exercises and real-world implementations.
