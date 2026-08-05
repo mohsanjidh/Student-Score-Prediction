@@ -2,41 +2,46 @@
 
 ## 📌 AI & ML Internship Project – Codomax Digital Solutions
 
-Welcome to my AI & Machine Learning internship repository! This repository documents my learning journey during a **14-Day AI & Machine Learning Internship** at **Codomax Digital Solutions**.
+Welcome to my AI & Machine Learning internship repository! This repository showcases my learning journey during a **14-Day AI & Machine Learning Internship** at **Codomax Digital Solutions**.
 
-The goal of this project is to build a **Student Score Prediction System** while learning the complete Machine Learning workflow—from Python programming and data analysis to building, evaluating, comparing, and deploying machine learning models.
+Throughout this internship, I learned the complete Machine Learning workflow, including Python programming, data preprocessing, visualization, regression, classification, model evaluation, and model comparison using real-world libraries such as **Pandas**, **NumPy**, and **Scikit-learn**.
 
 ---
 
 # 🚀 Project Overview
 
-This project demonstrates the complete Machine Learning pipeline:
+This project demonstrates an end-to-end Machine Learning workflow:
 
 - Python Programming
 - NumPy
 - Pandas
-- Data Cleaning & Preprocessing
+- Data Cleaning
 - Data Visualization
+- Exploratory Data Analysis (EDA)
 - Regression Algorithms
 - Classification Algorithms
 - Model Evaluation
 - Model Persistence
+- Machine Learning Model Comparison
 - Student Score Prediction
 
 ---
 
-# 📅 Internship Progress
+# 📅 Internship Journey
 
 ## ✅ Day 1 – Environment Setup
 - Installed Python
 - Configured VS Code
-- Set up Jupyter Notebook
-- Installed Git and connected GitHub
+- Installed Jupyter Notebook
+- Installed Git
+- Connected GitHub Repository
 
 ---
 
 ## ✅ Day 2 – Python Basics
-### Topics Covered
+
+Topics Covered
+
 - Variables
 - Data Types
 - Operators
@@ -44,150 +49,209 @@ This project demonstrates the complete Machine Learning pipeline:
 - Conditional Statements
 - Functions
 
-### Mini Project
-Study Hours Tracker
+Mini Project
+
+- Study Hours Tracker
 
 ---
 
-## ✅ Day 3 – NumPy Basics
-### Topics Covered
+## ✅ Day 3 – NumPy
+
+Topics Covered
+
 - Arrays
 - Indexing
 - Slicing
 - Mathematical Operations
-- Statistical Functions
+- Statistics
 
-### Mini Project
-Student Study Hours Analysis
+Mini Project
+
+- Student Study Hours Analysis
 
 ---
 
-## ✅ Day 4 – Pandas Basics
-### Topics Covered
-- Reading CSV Files
-- Dataset Exploration
-- Descriptive Statistics
-- Selecting Rows & Columns
+## ✅ Day 4 – Pandas
 
-### Mini Project
-Student Dataset Analysis
+Topics Covered
+
+- Reading CSV Files
+- Data Exploration
+- Descriptive Statistics
+- Data Selection
+
+Mini Project
+
+- Student Dataset Analysis
 
 ---
 
 ## ✅ Day 5 – Data Cleaning
-### Topics Covered
+
+Topics Covered
+
 - Missing Values
 - Duplicate Records
 - Data Validation
 - Data Preparation
 
-### Mini Project
-Student Dataset Cleaning
+Mini Project
+
+- Student Dataset Cleaning
 
 ---
 
 ## ✅ Day 6 – Data Visualization
-### Topics Covered
+
+Topics Covered
+
 - Line Plot
 - Scatter Plot
 - Histogram
 - Bar Chart
 
-### Mini Project
-Student Score Visualization
+Mini Project
+
+- Student Score Visualization
 
 ---
 
 ## ✅ Day 7 – Linear Regression
-### Topics Covered
-- Supervised Learning
-- Train-Test Split
-- Linear Regression
-- Model Training
-- Predictions
 
-### Mini Project
-Student Score Prediction
+Topics Covered
+
+- Supervised Learning
+- Linear Regression
+- Train-Test Split
+- Model Training
+- Prediction
+
+Mini Project
+
+- Student Score Prediction
 
 ---
 
 ## ✅ Day 8 – Model Evaluation
-### Topics Covered
+
+Topics Covered
+
 - MAE
 - MSE
 - RMSE
 - R² Score
-- Actual vs Predicted Comparison
 
-### Mini Project
-Linear Regression Evaluation
+Mini Project
+
+- Linear Regression Performance Evaluation
 
 ---
 
 ## ✅ Day 9 – Model Persistence
-### Topics Covered
-- Saving Models using Joblib
-- Loading Models
-- Predicting New Data
 
-### Mini Project
-Reusable Student Score Prediction Model
+Topics Covered
+
+- Saving Models
+- Loading Models
+- Joblib
+- Making Predictions
+
+Mini Project
+
+- Reusable Student Score Prediction Model
 
 ---
 
 ## ✅ Day 10 – Decision Tree Regression
-### Topics Covered
-- Decision Tree Regression
-- Model Training
-- Predictions
-- Model Evaluation
-- Comparison with Linear Regression
 
-### Mini Project
-Student Score Prediction using Decision Tree
+Topics Covered
+
+- Decision Tree Algorithm
+- Model Training
+- Prediction
+- Model Comparison
+
+Mini Project
+
+- Student Score Prediction using Decision Tree
 
 ---
 
 ## ✅ Day 11 – Random Forest Regression
-### Topics Covered
+
+Topics Covered
+
 - Ensemble Learning
 - Random Forest Regression
-- Model Training
 - Model Evaluation
-- Comparison with Other Regression Models
+- Performance Comparison
 
-### Mini Project
-Student Score Prediction using Random Forest
+Mini Project
+
+- Student Score Prediction using Random Forest
 
 ---
 
 ## ✅ Day 12 – Logistic Regression Classification
-### Topics Covered
+
+Topics Covered
+
 - Classification
 - Logistic Regression
 - Accuracy
 - Confusion Matrix
 - Classification Report
-- Regression vs Classification
 
-### Mini Project
-Student Pass/Fail Prediction
+Mini Project
+
+- Student Pass/Fail Prediction
 
 ---
 
-## ✅ Day 13 – K-Nearest Neighbors (KNN) Classification
+## ✅ Day 13 – K-Nearest Neighbors (KNN)
 
-### Topics Covered
-- K-Nearest Neighbors (KNN)
+Topics Covered
+
+- KNN Algorithm
 - Distance-Based Learning
 - Classification
-- Accuracy
-- Confusion Matrix
-- Classification Report
+- Model Evaluation
 - Logistic Regression vs KNN
 
-### Mini Project
-Student Pass/Fail Prediction using KNN
+Mini Project
+
+- Student Pass/Fail Prediction using KNN
+
+---
+
+## ✅ Day 14 – Final Model Comparison
+
+Topics Covered
+
+- Regression Model Comparison
+- Classification Model Comparison
+- Performance Analysis
+- Machine Learning Workflow Summary
+- Internship Review
+
+Mini Project
+
+- Complete Machine Learning Model Comparison Dashboard
+
+---
+
+# 🤖 Machine Learning Models Implemented
+
+### Regression Models
+
+- Linear Regression
+- Decision Tree Regression
+- Random Forest Regression
+
+### Classification Models
+
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
 
 ---
 
@@ -223,6 +287,7 @@ Student-Score-Prediction/
 ├── Day11_Random_Forest_Regression.ipynb
 ├── Day12_Logistic_Regression_Classification.ipynb
 ├── Day13_KNN_Classification.ipynb
+├── Day14_Final_Model_Comparison.ipynb
 │
 ├── student_scores.csv
 ├── student_score_model.pkl
@@ -233,58 +298,57 @@ Student-Score-Prediction/
 
 ---
 
-# 📖 Skills Learned
+# 📖 Skills Acquired
 
 - Python Programming
 - NumPy
 - Pandas
 - Data Cleaning
 - Data Visualization
-- Exploratory Data Analysis (EDA)
-- Machine Learning Fundamentals
+- Exploratory Data Analysis
 - Linear Regression
 - Decision Tree Regression
 - Random Forest Regression
 - Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Classification
+- KNN Classification
 - Model Evaluation
+- Model Comparison
 - Model Persistence
 - Git & GitHub
 
 ---
 
-# 📈 Machine Learning Workflow
+# 📊 Machine Learning Workflow
 
 ```
-Student Dataset
-      │
-      ▼
+Dataset
+   │
+   ▼
 Data Cleaning
-      │
-      ▼
+   │
+   ▼
 Data Visualization
-      │
-      ▼
+   │
+   ▼
 Train-Test Split
-      │
-      ▼
-Machine Learning Models
-│
-├── Regression
-│   ├── Linear Regression
-│   ├── Decision Tree Regression
-│   └── Random Forest Regression
-│
-└── Classification
-    ├── Logistic Regression
-    └── K-Nearest Neighbors (KNN)
-      │
-      ▼
+   │
+   ├──────── Regression
+   │          ├── Linear Regression
+   │          ├── Decision Tree
+   │          └── Random Forest
+   │
+   └──────── Classification
+              ├── Logistic Regression
+              └── KNN
+                  │
+                  ▼
 Model Evaluation
-      │
-      ▼
-Prediction
+                  │
+                  ▼
+Performance Comparison
+                  │
+                  ▼
+Final Prediction
 ```
 
 ---
@@ -313,14 +377,14 @@ joblib
 
 ---
 
-# 📅 Learning Timeline
+# 📅 Internship Timeline
 
 | Day | Topic | Status |
-|------|------------------------------------------|------------|
+|------|--------------------------------------|-----------|
 | ✅ Day 1 | Environment Setup | Completed |
 | ✅ Day 2 | Python Basics | Completed |
-| ✅ Day 3 | NumPy Basics | Completed |
-| ✅ Day 4 | Pandas Basics | Completed |
+| ✅ Day 3 | NumPy | Completed |
+| ✅ Day 4 | Pandas | Completed |
 | ✅ Day 5 | Data Cleaning | Completed |
 | ✅ Day 6 | Data Visualization | Completed |
 | ✅ Day 7 | Linear Regression | Completed |
@@ -328,18 +392,9 @@ joblib
 | ✅ Day 9 | Model Persistence | Completed |
 | ✅ Day 10 | Decision Tree Regression | Completed |
 | ✅ Day 11 | Random Forest Regression | Completed |
-| ✅ Day 12 | Logistic Regression Classification | Completed |
+| ✅ Day 12 | Logistic Regression | Completed |
 | ✅ Day 13 | KNN Classification | Completed |
-| ⏳ Day 14 | Final Project & Model Comparison | Coming Soon |
-
----
-
-# 🎯 Upcoming Topics
-
-- Random Forest Classifier
-- Final Model Comparison
-- Internship Wrap-up
-- GitHub Portfolio Enhancement
+| ✅ Day 14 | Final Model Comparison | Completed |
 
 ---
 
@@ -353,14 +408,16 @@ joblib
 
 ---
 
-# ⭐ Repository Status
+# ⭐ Project Status
 
-**Progress:** ✅ **Day 13 / 14 Completed**
+🎉 **AI & ML Internship Successfully Completed**
 
-🚀 **Current Focus:** Comparing machine learning algorithms and strengthening classification skills.
+✅ 14 Days Completed
+
+🚀 Ready to Build More Advanced Machine Learning Projects
 
 ---
 
-## 🌟 Acknowledgement
+## 🙏 Acknowledgement
 
-This project is part of my **AI & Machine Learning Internship at Codomax Digital Solutions**, where I am gaining practical experience through daily hands-on implementation of machine learning concepts.
+This repository represents the practical work completed during my **14-Day AI & Machine Learning Internship at Codomax Digital Solutions**. It reflects my progress from Python fundamentals to implementing, evaluating, and comparing multiple machine learning algorithms through hands-on practice.
