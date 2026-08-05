@@ -1,6 +1,6 @@
 # 🎓 Student Score Prediction
 
-## 📌 AI & ML Internship Project – Codomax Digital Solutions
+## 📌 AI & ML Internship Project @ Codomax Digital Solutions
 
 Welcome to my AI & Machine Learning internship repository! This repository showcases my learning journey during a **14-Day AI & Machine Learning Internship** at **Codomax Digital Solutions**.
 
